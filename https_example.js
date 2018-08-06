@@ -1,12 +1,12 @@
 // Require https module
 var https = require('https');
-console.log('I did it!');
+// console.log('I did it!');
 // ========================================
 
 // make simple request from www.example.org
 var options = {
-    host: 'www.example.org',
-    path: '/'
+    host: 'stream-large-file.herokuapp.com',
+    path: '/give-me-stuff-now'
 };
 
 // called by https when the request is made
